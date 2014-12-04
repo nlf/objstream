@@ -1,0 +1,29 @@
+{
+  "name": "objstream",
+  "version": "1.0.0",
+  "description": "an objectMode to regular mode transform stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nlf/objstream.git"
+  },
+  "keywords": [
+    "stream",
+    "objectmode",
+    "transform"
+  ],
+  "author": "Nathan LaFreniere <quitlahok@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nlf/objstream/issues"
+  },
+  "homepage": "https://github.com/nlf/objstream",
+  "devDependencies": {
+    "code": "^1.2.1",
+    "concat-stream": "^1.4.7",
+    "lab": "^5.1.0"
+  }
+}
