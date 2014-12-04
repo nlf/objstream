@@ -5,6 +5,8 @@ function ObjStream() {
 
     this._started = false;
     Stream.Transform.call(this, { objectMode: true });
+    this._readableState.objectMode = false;
+    this._readableState.encoding = 'utf8';
 }
 
 Util.inherits(ObjStream, Stream.Transform);
